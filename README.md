@@ -1,16 +1,43 @@
 # codeclause
 
-A new Flutter project.
+Firebase Authentication App
+A simple authentication system using Firebase Authentication that supports Google, Facebook, and Email/Password login. Built with Flutter for seamless cross-platform support.
 
-## Getting Started
+Features
+✅ Google Sign-In
+✅ Facebook Sign-In
+✅ Email/Password Authentication
+✅ Firebase User Management
+✅ Secure Token Handling
 
-This project is a starting point for a Flutter application.
+Tech Stack
+Flutter (Dart)
 
-A few resources to get you started if this is your first Flutter project:
+Firebase Authentication
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Provider / Riverpod / Bloc (State Management, if used)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Firestore (Optional, if user data is stored)
+
+Setup & Installation
+Clone the repository:
+
+sh
+Copy
+Edit
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+Install dependencies:
+
+sh
+Copy
+Edit
+flutter pub get
+Add your Firebase Config (google-services.json for Android, GoogleService-Info.plist for iOS).
+
+Run the app:
+
+sh
+Copy
+Edit
+flutter run
