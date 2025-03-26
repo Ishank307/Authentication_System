@@ -59,9 +59,9 @@ class _MyloginPageState extends State<MyloginPage> {
 
   Future<void> signInWithGitHub(BuildContext context) async {
     try {
-      debugPrint("Env variables: ${dotenv.env}"); // Debug print
-      debugPrint("XXXXXXXXXXXXXXXX");
-      debugPrint(dotenv.env["REDIRECT_URL"] ?? "");
+      //debugPrint("Env variables: ${dotenv.env}"); // Debug print
+      //debugPrint("C");
+      //debugPrint(dotenv.env["REDIRECT_URL"] ?? "");
       final GitHubSignIn gitHubSignIn = GitHubSignIn(
         clientId: dotenv.env["CLIENT_ID"] ?? "",
         clientSecret: dotenv.env["CLIENT_SECRET"] ?? "",
@@ -72,7 +72,7 @@ class _MyloginPageState extends State<MyloginPage> {
 
       switch (result.status) {
         case GitHubSignInResultStatus.ok:
-          debugPrint("GitHub Token: ${result.token}");
+          //debugPrint("GitHub Token: ${result.token}");
           if (!context.mounted) return;
           Navigator.pushReplacement(
             context,
