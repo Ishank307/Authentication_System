@@ -1,43 +1,77 @@
-# codeclause
+# 🔐 Firebase Authentication System
+A full-fledged authentication system using Firebase Authentication supporting Google, Facebook, GitHub, and OTP-based login. Built with Flutter, this project ensures secure and seamless authentication for mobile and web users.
 
-Firebase Authentication App
-A simple authentication system using Firebase Authentication that supports Google, Facebook, and Email/Password login. Built with Flutter for seamless cross-platform support.
-
-Features
+## 🚀 Features
 ✅ Google Sign-In
 ✅ Facebook Sign-In
-✅ Email/Password Authentication
-✅ Firebase User Management
-✅ Secure Token Handling
+✅ GitHub Sign-In
+✅ Phone Authentication with OTP
+✅ Email & Password Login/Signup
+✅ Firebase Backend Integration
+✅ User Authentication State Management
 
-Tech Stack
-Flutter (Dart)
+## 🏗 System Architecture
+![diagram-export-3-26-2025-9_59_51-AM](https://github.com/user-attachments/assets/7282bbc0-173c-49f6-a25e-3291828864cb)
+
+## 🛠 Tech Stack
+Flutter 
 
 Firebase Authentication
 
-Provider / Riverpod / Bloc (State Management, if used)
+Firestore 
 
-Firestore (Optional, if user data is stored)
+State Management
 
-Setup & Installation
-Clone the repository:
+🔧 Installation & Setup
+1. Clone the Repository
+2. 
+git clone https://github.com/your-username/firebase-auth-system.git
+cd firebase-auth-system
 
-sh
-Copy
-Edit
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-Install dependencies:
-
-sh
-Copy
-Edit
+4. Install Dependencies
 flutter pub get
-Add your Firebase Config (google-services.json for Android, GoogleService-Info.plist for iOS).
 
-Run the app:
+6. Firebase Setup
+Create a Firebase project in Firebase Console
 
+Enable Google, Facebook, GitHub, Phone, and Email authentication
+
+Download google-services.json (for Android) and GoogleService-Info.plist (for iOS)
+
+4. Run the App
 sh
 Copy
 Edit
 flutter run
+🎯 How It Works
+Users can sign up/login via email/password, Google, Facebook, GitHub, or OTP-based authentication.
+
+Firebase processes authentication and securely stores user credentials.
+
+Upon successful authentication, the app redirects users to the Home Page.
+
+🏗 Project Structure
+bash
+Copy
+Edit
+📂 lib/
+ ┣ 📂 screens/        # UI Screens (Login, Signup, Home)
+ ┣ 📂 services/       # Firebase Auth Services
+ ┣ 📂 widgets/        # Reusable UI Components
+ ┣ 📜 main.dart       # App Entry Point
+🤝 Contributing
+Want to improve this project?
+
+Fork this repo
+
+Create a new branch (feature-xyz)
+
+Commit & push changes
+
+Open a pull request 🚀
+
+📩 Contact & Support
+📧 Email: ishankkumar307@gmail.com
+💬 LinkedIn: https://www.linkedin.com/in/ishank-kumar-479204260/
+
+⭐ If you like this project, don’t forget to star the repo!
