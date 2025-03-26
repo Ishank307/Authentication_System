@@ -8,8 +8,8 @@ import 'firebase_options.dart';
 
 Future<void> main() async {
   await dotenv.load();
-  debugPrint("Initializing Firebase...");
-  debugPrint("Env Variables: ${dotenv.env}");
+  //debugPrint("Initializing Firebase...");
+  //debugPrint("Env Variables: ${dotenv.env}");
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MyApp());

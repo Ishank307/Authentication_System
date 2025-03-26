@@ -115,7 +115,7 @@ class _MyloginPageState extends State<MyloginPage> {
 
   login(String email, String password) async {
     if (email.isEmpty || password.isEmpty) {
-      return Uihelper.customAlertBox(context, "Enter Reuired Fields");
+      return Uihelper.customAlertBox(context, "Enter Required Fields");
     } else {
       UserCredential userCredential;
       try {
@@ -172,7 +172,7 @@ class _MyloginPageState extends State<MyloginPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("Already have an account?"),
+                  Text("Don't have an account?"),
                   TextButton(
                     onPressed: () {
                       Navigator.push(

@@ -1,4 +1,5 @@
 import 'package:codeclause/main.dart';
+import 'package:codeclause/pages/login.dart';
 import 'package:codeclause/pages/uihelper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -29,7 +30,7 @@ class _SignUpPageState extends State<SignUpPage> {
       if (!mounted) return;
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => MyHomePage(title: "Home Page")),
+        MaterialPageRoute(builder: (context) => MyloginPage()),
       );
     } on FirebaseAuthException catch (ex) {
       if (!mounted) return;
