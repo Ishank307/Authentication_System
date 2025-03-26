@@ -25,7 +25,7 @@ State Management
 🔧 Installation & Setup
 1. Clone the Repository
 2. 
-git clone https://github.com/your-username/firebase-auth-system.git
+git clone https://github.com/Ishank307/Authentication_System.githttps://github.com/Ishank307/Authentication_System.git
 cd firebase-auth-system
 
 4. Install Dependencies
