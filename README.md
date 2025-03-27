@@ -23,13 +23,12 @@ Firestore
 State Management
 
 🔧 Installation & Setup
-1. Clone the Repository
-2. 
-git clone https://github.com/Ishank307/Authentication_System.githttps://github.com/Ishank307/Authentication_System.git
-cd firebase-auth-system
+ Clone the Repository
+   $ git clone https://github.com/Ishank307/Authentication_System.githttps://github.com/Ishank307/Authentication_System.git
+   $ cd firebase-auth-system
 
 4. Install Dependencies
-flutter pub get
+   $ flutter pub get
 
 6. Firebase Setup
 Create a Firebase project in Firebase Console
@@ -50,16 +49,6 @@ Firebase processes authentication and securely stores user credentials.
 
 Upon successful authentication, the app redirects users to the Home Page.
 
-🏗 Project Structure
-bash
-Copy
-Edit
-📂 lib/
- ┣ 📂 screens/        # UI Screens (Login, Signup, Home)
- ┣ 📂 services/       # Firebase Auth Services
- ┣ 📂 widgets/        # Reusable UI Components
- ┣ 📜 main.dart       # App Entry Point
-🤝 Contributing
 Want to improve this project?
 
 Fork this repo
