@@ -22,7 +22,7 @@ Firestore
 
 State Management
 
-🔧 Installation & Setup
+## 🔧 Installation & Setup
  Clone the Repository
    $ git clone https://github.com/Ishank307/Authentication_System.githttps://github.com/Ishank307/Authentication_System.git
    $ cd firebase-auth-system
@@ -42,7 +42,7 @@ sh
 Copy
 Edit
 flutter run
-🎯 How It Works
+## 🎯 How It Works
 Users can sign up/login via email/password, Google, Facebook, GitHub, or OTP-based authentication.
 
 Firebase processes authentication and securely stores user credentials.
